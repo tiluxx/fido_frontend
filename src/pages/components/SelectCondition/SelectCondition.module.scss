@@ -1,0 +1,23 @@
+.condition-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+}
+
+.item-condition {
+    font-size: calc(var(--default-content-font-size) - 0.4rem);
+
+    &.not-started {
+        color: var(--imperial-red);
+    }
+
+    &.in-progress {
+        color: var(--celadon);
+    }
+
+    &.done {
+        color: var(--dark-pastel-green);
+    }
+}

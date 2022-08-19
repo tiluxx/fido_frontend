@@ -1,0 +1,15 @@
+.wrapper {    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: var(--snow);
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.user-progress-title {
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+}

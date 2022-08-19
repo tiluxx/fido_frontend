@@ -1,0 +1,49 @@
+.MuiCircularProgress-circle {
+    stroke: var(--majorelle-blue);
+}
+
+.MuiTypography-root {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.MuiTypography-h4 {
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.MuiTable-root {
+    min-width: 0;
+}
+
+.MuiTableCell-root {
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    line-height: var(--default-content-line-height);
+    color: var(--raisin-black);
+}
+
+.MuiFormControlLabel-label {
+    font-weight: 400;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    line-height: var(--default-content-line-height);
+    font-weight: 500;
+}
+
+.MuiTablePagination-displayedRows {
+    font-weight: 400;
+}
+
+.MuiInputBase-root,
+.MuiMenuItem-root {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    font-weight: 400;
+}

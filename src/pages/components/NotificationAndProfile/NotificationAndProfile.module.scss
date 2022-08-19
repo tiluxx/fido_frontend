@@ -1,0 +1,31 @@
+.container {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.content {
+    padding: 4px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--majorelle-blue);
+    border-radius: var(--default-border-radius);
+    font-size: var(--default-content-font-size);
+    color: var(--snow);
+}
+
+.profile-wrapper{
+    padding: 4px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-username {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: var(--snow);
+}

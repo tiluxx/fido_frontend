@@ -1,0 +1,24 @@
+.project-item {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.project-info,
+.project-progress {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.content-title,
+.content-subtitle {
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+    font-weight: 500;
+}
+
+.show-task-btn {
+    color: var(--raisin-black);
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    padding: 0 var(--default-padding-home-page-size);
+    width: 100%;
+    background-color: var(--snow);
+}
+
+.container {
+    margin-top: 80px;
+}
+
+// Responsive
+/* Mobile */
+@media (min-width: 0) and (max-width: 599px) {
+    .wrapper {
+        padding: 0 calc(var(--default-padding) + 20px);
+    }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1199px) {
+    .wrapper {
+        padding: 0 calc(var(--default-padding) + 20px);
+    }
+}
+
+/* PC */
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,91 @@
+.task-wrapper {
+    width: 100%;
+}
+
+.task-item {
+    display: flex;
+    margin: 10px 0;
+    padding: 12px 20px;
+    width: 100%;
+    height: auto;
+    background-color: var(--snow);
+    border-radius: var(--default-border-radius);
+    box-shadow: rgb(0 0 0 /12%) 0px 2px 12px;
+}
+
+.task-title {
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.task-condition {
+    font-size: calc(var(--default-content-font-size) - 0.2rem);
+    line-height: calc(var(--default-content-line-height) - 0.2rem);
+    font-weight: 400;
+}
+
+.more-icon {
+    text-align: right;
+}
+
+// Modal
+.modal-task-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-task-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+
+.modal-content__condition {
+    width: 32%;
+    padding: 4px 12px;
+    font-size: calc(var(--default-content-font-size) - 0.4rem);
+    line-height: calc(var(--default-content-line-height) - 0.4rem);
+    font-weight: 500;
+    color: var(--snow);
+    background-color: var(--imperial-red);
+    border-radius: var(--default-border-radius);
+    text-align: center;
+
+    &.condition-in-progress {
+        background-color: #79d999;
+    }
+
+    &.condition-done {
+        background-color: var(--dark-pastel-green);
+    }
+}
+
+.modal-info-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.modal-info-wrapper__title,
+.modal-info-wrapper__content {
+    display: flex;
+    flex-direction: column;
+
+    & > h5 {
+        margin-bottom: 8px;
+        font-size: calc(var(--default-content-font-size) - 0.2rem);
+        line-height: calc(var(--default-content-line-height) - 0.2rem);
+        font-weight: 500;
+    }
+}
+
+.modal-info-wrapper__content {
+    & > h5 {
+        font-size: calc(var(--default-content-font-size) - 0.2rem);
+        line-height: calc(var(--default-content-line-height) - 0.2rem);
+        font-weight: 400;
+    }
+}

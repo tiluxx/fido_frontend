@@ -1,0 +1,10 @@
+.MuiTable-root {
+    min-width: 0;
+}
+
+.MuiTableCell-root {
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    line-height: var(--default-content-line-height);
+    color: var(--raisin-black);
+}

@@ -1,0 +1,5 @@
+.MuiBadge-badge {
+    min-width: 0px;
+    font-family: var(--font-family);
+    height: 15px;
+}

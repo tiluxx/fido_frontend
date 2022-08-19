@@ -1,0 +1,5 @@
+.MuiAvatar-root {
+    font-family: var(--font-family);
+    color: var(--majorelle-blue);
+    background-color: var(--snow);
+}

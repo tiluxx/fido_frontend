@@ -1,0 +1,140 @@
+.wrapper {
+    height: 100%;
+}
+
+.container {
+    padding: 54px 0;
+    background-color: var(--majorelle-blue);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.logo {
+    margin-bottom: 24px;
+    padding-left: var(--default-padding);
+    padding-right: 12px;
+}
+
+.logo-img {
+    width: 75%;
+}
+
+.func-btn-wrapper {
+    padding-left: var(--default-padding);
+    padding-right: 12px;
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: #8163ee;
+    }
+}
+
+.responsive-md {
+    display: none;
+}
+
+.profile-wrapper{    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: var(--snow);
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.profile-username {
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+    font-weight: 400;
+    color: var(--snow);
+}
+
+.project-wrapper {
+    margin-top: 10px;
+    padding-left: var(--default-padding);
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: #8163ee;
+    }
+}
+
+.mobile__container {
+    overflow-y: auto;
+    display: none;
+}
+
+.mobile__back-btn-wrapper {
+    padding-top: 10px;
+    padding-left: var(--default-padding);
+    padding-right: 12px;
+}
+
+.mobile__back-btn {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mobile__back-icon {
+    font-size: 1.4rem;
+    color: var(--snow);
+}
+
+.mobile__logo-img {
+    width: 40%;
+}
+
+.mobile__nav-btn-wrapper {
+    width: 100%;
+    text-align: end;
+}
+
+.mobile__nav-btn {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mobile__nav-icon {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--raisin-black);
+}
+
+// Responsive
+/* Mobile & Tablet */
+@media (min-width: 0) and (max-width: 899px) {
+    .responsive-md {
+        display: block;
+    }
+
+    .container {
+        display: none;
+    }
+    
+    .mobile__container {
+        padding: 0 var(--default-padding);
+        display: inline-block;
+        width: 100%;
+    }
+
+    .func-btn-wrapper {
+        width: 100%;
+    }
+
+    .project-wrapper {
+        width: 100%;
+    }
+}
+
+/* Tablet & PC */
+@media (min-width: 900px) {
+    .container {
+        display: inline-block;
+    }
+
+    .mobile__container {
+        display: none;
+    }
+}

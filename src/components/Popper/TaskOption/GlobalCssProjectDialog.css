@@ -1,0 +1,28 @@
+.MuiDialogTitle-root {
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--raisin-black);
+}
+
+.MuiPaper-root.MuiDialog-paper {
+    background-color: var(--snow);
+    min-width: 32%;
+}
+
+.MuiInput-root,
+.MuiInputLabel-root {
+    font-family: var(--font-family);
+    color: var(--raisin-black);
+}
+
+.MuiInputLabel-root.Mui-focused {
+    color: var(--majorelle-blue);
+}
+
+.MuiInputBase-root.MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid var(--majorelle-blue);
+}
+
+.MuiInputBase-root.MuiInput-root:after {
+    border-bottom: 2px solid var(--majorelle-blue);
+}

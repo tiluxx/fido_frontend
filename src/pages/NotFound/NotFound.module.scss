@@ -1,0 +1,52 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin-top: 10px;
+}
+
+.not-found__illustration {
+    width: 50vh;
+}
+
+.text-section {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.come-home-btn {
+    padding: 12px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    background-color: var(--majorelle-blue);
+    color: var(--snow);
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: #8163ee;
+    }
+}
+
+.footer {
+    width: 100%;
+}

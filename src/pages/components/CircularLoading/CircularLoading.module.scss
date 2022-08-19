@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--raisin-black);
+}
+
+.logo-img {
+    width: 25vh;
+}
+
+.sub-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

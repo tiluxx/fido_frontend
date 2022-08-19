@@ -1,0 +1,34 @@
+.header-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.progress-board {
+    margin-top: 40px;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: var(--default-border-radius);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.board-title {
+    padding: 16px 20px;
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+    font-weight: 500;
+    color: var(--snow);
+    background-color: var(--majorelle-blue);
+    border-radius: var(--default-border-radius);
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.add-project-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: var(--snow);
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.add-project-title {
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 8px 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    color: var(--majorelle-blue);
+    background-color: transparent;
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: rgb(230, 224, 255);
+    }
+}
+
+.submit-btn {
+    color: var(--snow);
+    background-color: var(--majorelle-blue);
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: rgb(66, 26, 212);
+    }
+}

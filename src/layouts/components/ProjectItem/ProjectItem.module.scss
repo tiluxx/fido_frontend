@@ -1,0 +1,36 @@
+.project-item {
+    padding: 10px 0;
+    align-items: center;
+    color: var(--snow);
+}
+
+.project-title {
+    padding-left: 10px;
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+}
+
+.project-icon__open {
+    display: none;
+}
+
+.project-icon__close {
+    display: inline-block;
+}
+
+.project-item-link {
+    display: inline-block;
+    width: 100%;
+
+    &.active > .project-icon__open {
+        display: inline-block;
+    }
+    
+    &.active > .project-icon__close {
+        display: none;
+    }
+}
+
+.more-icon {
+    margin-left: auto;
+}

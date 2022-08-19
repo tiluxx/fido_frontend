@@ -1,0 +1,71 @@
+.option-list {
+    width: -moz-fit-content;
+    width: fit-content;
+
+    & .option-popper {
+        min-height: 0;
+    }
+}
+
+.option-body {
+    overflow-y: auto;
+}
+
+.option-btn {
+    display: flex;
+    width: 100%;
+    padding: 11px 16px;
+    color: var(--raisin-black);
+    font-size: var(--default-content-font-size);
+    line-height: var(--default-content-line-height);
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(222, 222, 222);
+    }
+
+    &:first-child:hover {
+        border-top-left-radius: var(--default-border-radius);
+        border-top-right-radius: var(--default-border-radius);
+    }
+
+    &:last-child:hover {
+        border-bottom-left-radius: var(--default-border-radius);
+        border-bottom-right-radius: var(--default-border-radius);
+    }
+} 
+
+.option-title {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 8px 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    color: var(--majorelle-blue);
+    background-color: transparent;
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: rgb(230, 224, 255);
+    }
+}
+
+.submit-btn {
+    color: var(--snow);
+    background-color: var(--majorelle-blue);
+    border-radius: var(--default-border-radius);
+
+    &:hover {
+        background-color: rgb(201, 55, 67);
+    }
+}

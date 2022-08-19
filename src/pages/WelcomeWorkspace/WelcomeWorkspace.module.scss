@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.content__illustration {
+    width: 50vh;
+    margin-bottom: 10px;
+}
+
+.content__text {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+// Responsive
+/* Mobile */
+@media (min-width: 0) and (max-width: 599px) {
+    .content__illustration {
+        width: 40vh;
+    }
+}
